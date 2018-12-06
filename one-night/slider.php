@@ -17,7 +17,7 @@ $data = array(1,2,3);
       $class = ($key == 1) ? 'active' : '';
       ?>
       <div class="carousel-item <?php echo $class ?>">
-        <img class="slider d-block w-100" src="http://localhost/templates/assets/images/furniture-<?php echo $value?>.jpg" alt="Slide" >
+        <img class="slider d-block w-100" src="<?php echo $base_url;?>assets/images/furniture-<?php echo $value?>.jpg" alt="Slide" >
       </div>
       <?php
     }
