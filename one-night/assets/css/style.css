@@ -24,7 +24,7 @@ a:hover{
 }
 .img-grid{
 	object-fit: cover;
-	height: 200px;
+	max-height: 200px;
 	width: 100%;
 }
 .menu{
