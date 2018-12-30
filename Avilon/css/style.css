@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  margin-top: -20px;
 }
 
 @media (max-width: 768px) {
@@ -312,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   #nav-menu-container {
     display: none;
   }
@@ -382,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -963,6 +964,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #faq #faq-list i {
     top: 13px;
+  }
+  #header #logo img {
+    margin-top: 0px;
   }
 }
 

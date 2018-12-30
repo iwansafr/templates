@@ -92,14 +92,13 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/contactform.php';
+      action = _URL+'message/send';
     }
     $.ajax({
       type: "POST",
       url: action,
       data: str,
       success: function(msg) {
-        // alert(msg);
         if (msg == 'OK') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
@@ -114,5 +113,5 @@ jQuery(document).ready(function($) {
     });
     return false;
   });
-
+  console.log(_URL);
 });
