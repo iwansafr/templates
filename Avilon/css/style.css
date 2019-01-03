@@ -1033,6 +1033,55 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+/*payment section
+----------------------------------*/
+#payment {
+    padding: 60px 0;
+    overflow: hidden;
+}
+#payment .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#payment .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+}
+
+#payment .member .pic img {
+  max-width: 100%;
+}
+
+#payment .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#payment .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#payment .member .social {
+  margin-top: 15px;
+}
+
+#payment .member .social a {
+  color: #b3b3b3;
+}
+
+#payment .member .social a:hover {
+  color: #1dc8cd;
+}
+
+#payment .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
 /* Gallery Section
 --------------------------------*/
 #gallery {
