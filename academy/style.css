@@ -466,12 +466,14 @@ img {
         height: 600px; } }
     .hero-slides .single-hero-slide h4 {
       color: #ffffff;
+      text-shadow: 1px 1px 2px black;
       margin-bottom: 10px; }
       @media only screen and (max-width: 767px) {
         .hero-slides .single-hero-slide h4 {
           font-size: 18px; } }
     .hero-slides .single-hero-slide h2 {
       font-size: 60px;
+      text-shadow: 1px 1px 2px black;
       color: #ffffff;
       margin-bottom: 30px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
