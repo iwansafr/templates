@@ -48,9 +48,7 @@ a:hover{
 .nav-link{
 	color: white!important;
 }
-#slider{
-	margin-top: 6%;
-}
+
 .thumb{
 	width: 150px;
 }
@@ -144,9 +142,6 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 @media (max-width: 517px) {
   .slider{
 		max-height: 200px;
-  }
-  #slider{
-  	margin-top: 15%;
   }
   .carousel-indicators{
 		bottom: -7%;
