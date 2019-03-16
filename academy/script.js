@@ -83,6 +83,7 @@ $(document).ready(function(){
 		$('.panel-heading').addClass('card-header');
 		$('.panel-body').addClass('card-body');
 		$('.panel-footer').addClass('card-footer');
+		$('.col-xs-12').addClass('col-md-12');
 	}
 	panel2card();
 });
