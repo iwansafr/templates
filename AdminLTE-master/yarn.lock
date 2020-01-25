@@ -4486,3 +4486,5 @@ zopflipng-bin@^3.0.1:
     bin-build "^2.0.0"
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
+js-yaml@^3.13.1:
+  version "3.13.1"
