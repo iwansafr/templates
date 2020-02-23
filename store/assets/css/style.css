@@ -1,0 +1,44 @@
+body{
+	background-image: linear-gradient(black, grey);
+}
+.container{
+	background: white;
+}
+.primary{
+	color: red;
+}
+.widget{
+	border-top: 3px solid black;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	padding-top: 10px;
+}
+.widget-header{
+	border-bottom: 1px solid grey;
+}
+.widget-item{
+	border-bottom: 1px solid grey;
+	color: grey;
+}
+.widget-item:hover{
+	border-bottom: 1px solid grey;
+	color: #607d8b;
+}
+.buy{
+	padding: 0;
+	text-align: center;
+}
+.product_title{
+	font-size: 14px;
+}
+.page-footer{
+	background: grey;
+}
+footer ul li{
+	list-style: none;
+}
+footer{
+	background: #f2f2f2;
+  padding-top: 50px;
+  margin: 0 -1% 0 -1%;
+}
