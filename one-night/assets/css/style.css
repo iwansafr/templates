@@ -12,8 +12,11 @@ a{
 a:hover{
 	color: orange;
 }
+.nav-link{
+	color: orange!important;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  color: #fff;
+  color: #fff!important;
   background-color: orange;
 }
 #slider{
