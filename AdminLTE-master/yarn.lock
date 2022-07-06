@@ -3676,9 +3676,9 @@ seek-bzip@^1.0.3:
   dependencies:
     commander "~2.8.1"
 
-select2@^4.0.3:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/select2/-/select2-4.0.4.tgz#a18a628785f98d13999971ae95d8d7e57268076b"
+select2@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/select2/-/select2-4.0.6.tgz#88697c96e08b65a5963c2806c1d5eefbceec0a7e"
   dependencies:
     almond "~0.3.1"
     jquery-mousewheel "~3.1.13"
@@ -4486,15 +4486,3 @@ zopflipng-bin@^3.0.1:
     bin-build "^2.0.0"
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
-js-yaml@^3.13.1:
-  version "3.13.1"
-minimatch@^3.0.2:
-  version "3.0.2"
-underscore.string@^3.3.5:
-  version "3.3.5"
-clean-css@^4.1.11:
-  version "4.1.11"
-deep-extend@^0.5.1:
-  version "0.5.1"
-cryptiles@^4.1.2:
-  version "4.1.2"
